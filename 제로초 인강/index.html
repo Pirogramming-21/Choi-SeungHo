@@ -60,6 +60,10 @@
             --color_enter_rgb: 229, 56, 226;
         }
 
+        * {
+            box-sizing: border-box;
+        }
+
         html,
         body {
             margin: 0;
@@ -118,6 +122,87 @@
             height: 26px;
         }
 
+
+        #header-naverpay {
+            position: absolute;
+            top: 18px;
+            right: 42px;
+            padding: 15px;
+            display: inline-block;
+            background: none;
+            border: none;
+
+        }
+        #header-naverpay:hover::before {
+            position: absolute;
+            content: '';
+            width: 44px;
+            height: 44px;
+            background-color: var(--color_option_bg);
+            border-radius: 50%;
+            left: 1px;
+            top: 1px;
+            padding: 9px;
+
+        }
+
+        #header-naverpay:hover > div{
+            position: relative;
+            left: 1px;
+            top: 1px;
+        }
+
+        #header-naverpay > div {
+            background-image: url(sp_main.png);
+            background-size: 442px 434px;
+            background-position: -285px -173px;
+            background-repeat: no-repeat;
+            width: 32px;
+            height: 32px;
+        }
+
+
+        #header-notice {
+            position: absolute;
+            top: 18px;
+            right: -10px;
+            padding: 15px;
+            display: inline-block;
+            background: none;
+            border: none;
+
+        }
+        #header-notice:hover::before {
+            position: absolute;
+            content: '';
+            width: 44px;
+            height: 44px;
+            background-color: var(--color_option_bg);
+            border-radius: 50%;
+            left: 1px;
+            top: 1px;
+            padding: 9px;
+
+        }
+
+        #header-notice:hover > div{
+            position: relative;
+            left: 1px;
+            top: 1px;
+        }
+
+        #header-notice > div {
+            background-image: url(sp_main.png);
+            background-size: 442px 434px;
+            background-position: -326px -227px;
+            background-repeat: no-repeat;
+            width: 32px;
+            height: 32px;
+        }
+
+
+        
+
         .blind{
             position: absolute;
             clip: rect(0,0,0,0);
@@ -134,8 +219,22 @@
         <div id="wrap-center">
             <div id="header">
                 <button id="header-hamburger">
+                    <!-- ::before -->
                     <div></div>
                     <span class="blind">확장 영역</span>
+                    <!-- ::after -->
+                </button>
+                <button id="header-naverpay">
+                    <!-- ::before -->
+                    <div></div>
+                    <span class="blind">네이버 페이</span>
+                    <!-- ::after -->
+                </button>
+                <button id="header-notice">
+                    <!-- ::before -->
+                    <div></div>
+                    <span class="blind">알림</span>
+                    <!-- ::after -->
                 </button>
             </div>
             <div id="search"> </div>
