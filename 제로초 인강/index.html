@@ -78,7 +78,7 @@
         #wrap-center {
             width: 1280px;
             display: inline-block;
-            background-color: yellow;
+
         }
 
         #header {
@@ -229,13 +229,23 @@
 
         #search>form>input {
             width: 80%;
-
+            font-weight: bold;
+            font-size: larger;
+            color: black;
             border-radius: 33px;
             height: 100%;
             padding: 20px;
             border: none;
             outline: none;
         }
+
+        #search-input::placeholder{
+            color: white;
+        }
+        #search-input:focus::placeholder{
+            color: rgb(230,230,230)
+        }
+
 
         #search-right {
             display: flex;
@@ -244,11 +254,15 @@
 
         }
 
+
         #search-keyboard, #search-recent, #search-button{
             background: transparent;
             border: none;
             cursor: pointer;
         }
+
+
+
 
         #search-keyboard::before {
             content: "";
@@ -260,6 +274,10 @@
             width: 24px;
             height: 14px;
         }
+        #search-keyboard:hover::before{
+            filter: brightness(0,7);
+        } 
+
 
         #search-recent::before {
             content: "";
@@ -272,7 +290,14 @@
             height: 6px;
         }
 
+       
+        #search-button{
+            padding: 17px 27px 16px 10px;
+        }
+
         #search-button::before {
+            background-color: #03c75a;
+        
             content: '';
             background-image: url(sp_main.png);
             display: inline-block;
@@ -322,7 +347,7 @@
                             <span class="blind">자동완성/최근검색어펼치기</span>
                         </button>
                         <button id="search-button">
-                            <div><span class="blind">검색</span></div>
+                            <span class="blind">검색</span>
                         </button>
                     </div>
                 </form>
