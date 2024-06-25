@@ -65,7 +65,8 @@
         }
 
         html,
-        body {
+        body,
+        form {
             margin: 0;
             padding: 0;
         }
@@ -82,6 +83,8 @@
 
         #header {
             text-align: left;
+            position: relative;
+            height: 64px;
         }
 
         #header-hamburger {
@@ -211,6 +214,25 @@
             margin: -1px;
             overflow: hidden;
         }
+        #search > form{
+            display: inline-block;
+            width: 708px;
+            height: 60px;
+            border: 1px solid #03c75a;
+            border-radius: 33px;
+        }
+        #search > form > input{
+            width: 98%;
+            height: 100%;
+            padding: 17px;
+            border: none;
+            outline: none;
+        }
+   
+   
+
+
+
     </style>
 </head>
 
@@ -237,7 +259,14 @@
                     <!-- ::after -->
                 </button>
             </div>
-            <div id="search"> </div>
+            <div id="search"> 
+                <form action="">
+            
+                    <label for="search-input" class="blind">검색어 입력</label>
+                    <input type="text" />
+                    <button class="blind">검색</button>
+                </form>
+            </div>
             <div id="nav"> </div>
             <div id="main"> </div>
         </div>
