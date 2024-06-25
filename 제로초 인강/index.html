@@ -7,10 +7,12 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <title>Naver</title>
     <style>
-        html,body{
+        html,
+        body {
             margin: 0;
             padding: 0;
         }
+
         #wrap {
             text-align: center;
         }
@@ -20,13 +22,26 @@
             display: inline-block;
             background-color: yellow;
         }
-        #hamburger{
-            margin-top: 18px;
-            background-color: blue;
-            width: 46px;
-            height: 46px;
+
+        #header{
+            text-align: left;
         }
-          
+
+        #header-hamburger {
+            margin-top: 18px;
+            padding: 10px;
+            display: inline-block;
+           
+        }
+
+        #header-hamburger > div{
+            background-image: url(sp_main.png);
+            background-size: 442px 434px;
+            background-position: -326px -161px;
+            background-repeat: no-repeat;
+            width: 26px;
+            height: 26px;
+        }
     </style>
 </head>
 
@@ -34,7 +49,9 @@
     <div id="wrap">
         <div id="wrap-center">
             <div id="header">
-                <div id="hamburger"></div>    
+                <div id="header-hamburger">
+                    <div></div>
+                </div>
             </div>
             <div id="search"> </div>
             <div id="nav"> </div>
