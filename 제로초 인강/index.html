@@ -69,6 +69,9 @@
         form {
             margin: 0;
             padding: 0;
+            font-size: 10.5px;
+            line-height: 10.5px;
+            font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
         }
 
         #wrap {
@@ -235,6 +238,7 @@
             border-radius: 33px;
             height: 100%;
             padding: 20px;
+            font-size: 2rem;
             border: none;
             outline: none;
         }
@@ -311,6 +315,36 @@
             width: 25px;
             height: 25px;
         }
+
+        #nav > ul{
+            display: flex;
+            list-style-type: none;
+            justify-content: center;
+            font-size: 1.4rm;
+            line-height: 20px;
+            
+        }
+
+        #nav a{
+            text-decoration: none;
+        }
+
+        #nav a:visited{
+            color: black;
+        }
+        #nav li{
+            width: 64px;
+            margin-left: 4px;
+        }
+
+        #nav li:nth-of-type(1){
+            margin-left: 0px;
+
+        }
+        #nav li:nth-of-type(2){
+
+        }
+        
     </style>
 </head>
 
@@ -356,7 +390,78 @@
                     </div>
                 </form>
             </div>
-            <div id="nav"> </div>
+            <div id="nav">
+                <ul>
+                    <li>
+                        <a href="">
+                            <div></div>
+                            <span>메일</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div></div>
+                            <span>카페</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div></div>
+                            <span>블로그</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div></div>
+                            <span>쇼핑</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div></div>
+                            <span>뉴스</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div></div>
+                            <span>증권</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div></div>
+                            <span>부동산</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div></div>
+                            <span>지도</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <div></div>
+                            <span>웹툰</span>
+                        </a>
+                    </li>
+
+                    
+                    <li>
+                        <a href="">
+                            <div></div>
+                            <span class="blind">더보기</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <div id="main"> </div>
         </div>
     </div>
