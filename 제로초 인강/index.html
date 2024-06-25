@@ -97,6 +97,7 @@
             border: none;
 
         }
+
         #header-hamburger:hover::before {
             position: absolute;
             content: '';
@@ -110,13 +111,13 @@
 
         }
 
-        #header-hamburger:hover > div{
+        #header-hamburger:hover>div {
             position: relative;
             left: 1px;
             top: 1px;
         }
 
-        #header-hamburger > div {
+        #header-hamburger>div {
             background-image: url(sp_main.png);
             background-size: 442px 434px;
             background-position: -326px -161px;
@@ -136,6 +137,7 @@
             border: none;
 
         }
+
         #header-naverpay:hover::before {
             position: absolute;
             content: '';
@@ -149,13 +151,13 @@
 
         }
 
-        #header-naverpay:hover > div{
+        #header-naverpay:hover>div {
             position: relative;
             left: 1px;
             top: 1px;
         }
 
-        #header-naverpay > div {
+        #header-naverpay>div {
             background-image: url(sp_main.png);
             background-size: 442px 434px;
             background-position: -285px -173px;
@@ -175,6 +177,7 @@
             border: none;
 
         }
+
         #header-notice:hover::before {
             position: absolute;
             content: '';
@@ -188,13 +191,13 @@
 
         }
 
-        #header-notice:hover > div{
+        #header-notice:hover>div {
             position: relative;
             left: 1px;
             top: 1px;
         }
 
-        #header-notice > div {
+        #header-notice>div {
             background-image: url(sp_main.png);
             background-size: 442px 434px;
             background-position: -326px -227px;
@@ -204,35 +207,72 @@
         }
 
 
-        
 
-        .blind{
+
+        .blind {
             position: absolute;
-            clip: rect(0,0,0,0);
+            clip: rect(0, 0, 0, 0);
             width: 1px;
             height: 1px;
             margin: -1px;
             overflow: hidden;
         }
-        #search > form{
-            display: inline-block;
+
+        #search>form {
+            display: inline-flex;
             width: 708px;
             height: 60px;
             border: 1px solid #03c75a;
             border-radius: 33px;
+            text-align: center;
         }
-        #search > form > input{
-            width: 98%;
+
+        #search>form>input {
+            width: 80%;
+
+            border-radius: 33px;
             height: 100%;
             padding: 17px;
             border: none;
             outline: none;
         }
-   
-   
 
+        #search-right {
+            display: inline-block;
+        }
 
+        #search-keyboard::before {
+            content: "";
+            display: block;
+            background-image: url(sp_main.png);
+            background-size: 442px 434px;
+            background-position: -290px -270px;
+            background-repeat: no-repeat;
+            width: 24px;
+            height: 14px;
+        }
 
+        #search-recent::before {
+            content: "";
+            display: block;
+            background-image: url(sp_main.png);
+            background-size: 442px 434px;
+            background-position: -123px -98px;
+            background-repeat: no-repeat;
+            width: 10px;
+            height: 6px;
+        }
+
+        #search-button::before {
+            content: '';
+            background-image: url(sp_main.png);
+            display: inline-block;
+            background-size: 442px 434px;
+            background-position: -368px -280px;
+            background-repeat: no-repeat;
+            width: 25px;
+            height: 25px;
+        }
     </style>
 </head>
 
@@ -259,12 +299,24 @@
                     <!-- ::after -->
                 </button>
             </div>
-            <div id="search"> 
+            <div id="search">
                 <form action="">
-            
+
                     <label for="search-input" class="blind">검색어 입력</label>
-                    <input type="text" />
-                    <button class="blind">검색</button>
+                    <input type="text" id="search-input" placeholder="검색어를 입력하세요." />
+                    <div id="search-right">
+
+                        <button href="#" id="search-keyboard">
+                            <span class="blind">입력도구</span>
+                        </button>
+
+                        <button href="#" id="search-recent">
+                            <span class="blind">자동완성/최근검색어펼치기</span>
+                        </button>
+                        <button id="search-button">
+                            <div><span class="blind">검색</span></div>
+                        </button>
+                    </div>
                 </form>
             </div>
             <div id="nav"> </div>
