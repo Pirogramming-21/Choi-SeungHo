@@ -7,13 +7,24 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <title>Naver</title>
     <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+        }
         #wrap {
             text-align: center;
         }
 
         #wrap-center {
             width: 1280px;
+            display: inline-block;
             background-color: yellow;
+        }
+        #hamburger{
+            margin-top: 18px;
+            background-color: blue;
+            width: 46px;
+            height: 46px;
         }
           
     </style>
@@ -23,7 +34,8 @@
     <div id="wrap">
         <div id="wrap-center">
             <div id="header">
-      
+                <div id="hamburger"></div>    
+            </div>
             <div id="search"> </div>
             <div id="nav"> </div>
             <div id="main"> </div>
