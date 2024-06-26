@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 
-img {
+.footer-space {
     position: absolute;
     right: 20px;
     bottom: 0px;
