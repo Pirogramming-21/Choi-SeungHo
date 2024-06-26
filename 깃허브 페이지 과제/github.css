@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #24292e;
+    background-color: black;
     margin: 0;
     padding: 0;
 }
@@ -88,6 +88,11 @@ input[type="text"]::placeholder {
     padding: 50px;
     display: flex;
     justify-content: space-between;
+
+    background-image: url('back.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .content {
