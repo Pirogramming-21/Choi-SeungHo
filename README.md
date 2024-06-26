@@ -11,8 +11,13 @@
     오후 : Git 개론
 - **첫번째 과제**
 
-  깃허브 회원가입 페이지 클론하기
+  **깃허브 회원가입 페이지 클론하기**
+  
   ![image](https://github.com/Pirogramming-21/Choi-SeungHo/assets/74850409/4f8cefc0-ca5d-48d1-b6ef-98e386338377)
 
 
-  제로쿨 네이버 클론 강의 듣기 
+  제로쿨 네이버 클론 강의 듣기
+
+  ![네이버 클론](https://github.com/Pirogramming-21/Choi-SeungHo/assets/74850409/8f2cfef8-ea03-4a86-a32c-9823fd5682e6)
+
+
