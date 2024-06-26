@@ -451,9 +451,18 @@
             width: 420px;
         }
 
-        #main-left-ad,
-        #main-right-ad {
+        #main-left-ad {
             background-color: gray;
+            background: url('img/개발.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        #main-right-ad{
+            background-color: gray;
+            background: url('img/mvc2.png');
+            background-size: cover; 
+            background-position: center;
+            
         }
 
         aside[id$=ad] {
@@ -546,7 +555,15 @@
 
         #main-weather,
         #main-stock {
+            margin-top: 10px;
             padding: 18px, 0;
+        }
+
+        .main-weather-img{
+            background-image: url('img/3종세트.jpeg');
+            background-size: cover; 
+            background-position: center;
+             
         }
 
         .weather-and-stock>header {
@@ -990,15 +1007,33 @@
             grid-row: 1 / span 2;
         }
 
-        .item:nth-child(5),
-        .item:nth-child(6),
+
         .item:nth-child(11)>div:first-child {
             padding: 10px 12px 5px;
             border-radius: 4px;
             border: 1px solid rgba(0, 0, 0, .05);
-            background: rgba(245, 248, 251, .6);
+            background-image: url('img/3종세트.jpeg');
+    background-size: cover; 
+    background-position: center; 
         }
 
+        .item:nth-child(5) {
+            padding: 10px 12px 5px;
+            border-radius: 4px;
+            border: 1px solid rgba(0, 0, 0, .05);
+            background-image: url('img/고급편.png');
+    background-size: cover; 
+    background-position: center; 
+        }
+
+        .item:nth-child(6){
+            padding: 10px 12px 5px;
+            border-radius: 4px;
+            border: 1px solid rgba(0, 0, 0, .05);
+            background-image: url('img/인공지능.jpg');
+    background-size: cover; 
+    background-position: center; 
+        }
         .item:nth-child(6) {
             margin: 11px 0
         }
@@ -1205,7 +1240,7 @@
                                     <a href="#">오늘의 혜택</a>
                                     <div id="main-newstand-animaton">
                                         <div>
-                                            <a href="#">피로그래밍 21기 최승호 파이팅 파이팅 파이팅 파이팅</a>
+                                            <a href="#">&nbsp; 달리이미지를 구경하세요!!</a>
                                         </div>
                                             
                                     </div>
@@ -1219,38 +1254,38 @@
                             </div>
                             <div id="main-shopping-grid">
                                 <div class="item">
-                                    <div class="image"></div>
-                                    <div class="text">독보적 퀄리티 원피스</div>
+                                    <img src="sp_main.png" class="image">
+                                    <div class="text">네이버 사진</div>
                                 </div>
                                 <div class="item">
-                                    <div class="image"></div>
-                                    <div class="text">독보적 퀄리티 원피스</div>
+                                    <img src="img/개발자.png" class="image">
+                                    <div class="text">개발자의 미래</div>
                                 </div>
                                 <div class="item">
-                                    <div class="image"></div>
-                                    <div class="text">독보적 퀄리티 원피스</div>
+                                    <img src="img/경복궁.png" class="image">
+                                    <div class="text">광화문의 아름다움</div>
                                 </div>
                                 <div class="item">
-                                    <div class="image"></div>
-                                    <div class="text">독보적 퀄리티 원피스</div>
+                                    <img src="img/롤.png" class="image">
+                                    <div class="text">롤하는 아저씨</div>
                                 </div>
-                                <div class="item">5</div>
-                                <div class="item">6</div>
+                                <div class="item"></div>
+                                <div class="item"></div>
                                 <div class="item">
-                                    <div class="image"></div>
-                                    <div class="text">독보적 퀄리티 원피스</div>
-                                </div>
-                                <div class="item">
-                                    <div class="image"></div>
-                                    <div class="text">독보적 퀄리티 원피스</div>
+                                    <img src="img/문화재.png" class="image">
+                                    <div class="text">경복궁 춤추기</div>
                                 </div>
                                 <div class="item">
-                                    <div class="image"></div>
-                                    <div class="text">독보적 퀄리티 원피스</div>
+                                    <img src="img/불국사.png" class="image">
+                                    <div class="text">불국사로 놀러오세요</div>
                                 </div>
                                 <div class="item">
-                                    <div class="image"></div>
-                                    <div class="text">독보적 퀄리티 원피스</div>
+                                    <img src="img/비트코인.png" class="image">
+                                    <div class="text">비트코인 투자하세요</div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/사과4.png" class="image">
+                                    <div class="text">맛있는 사과</div>
                                 </div>
                                 <div class="item">
                                     <div></div>
@@ -1280,7 +1315,7 @@
                     <aside id="main-right-ad"></aside>
                     <section id="main-weather" class="weather-and-stock">
                         <header>날씨</header>
-                        <div></div>
+                        <div class="main-weather-img"></div>
                     </section>
                     <section id="main-stock" class="weather-and-stock">
                         <header>증시</header>
