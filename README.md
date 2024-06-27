@@ -13,7 +13,7 @@
 
   **깃허브 회원가입 페이지 클론하기**
   
-  ![image](https://github.com/Pirogramming-21/Choi-SeungHo/assets/74850409/4f8cefc0-ca5d-48d1-b6ef-98e386338377)
+  ![image](https://github.com/Pirogramming-21/Choi-SeungHo/assets/74850409/9b3718a0-c6d6-4073-8764-28d9215b490b)
 
 
   **제로쿨 네이버 클론 강의 듣기**
