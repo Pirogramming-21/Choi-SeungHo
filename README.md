@@ -34,6 +34,13 @@
 
   **피로그래밍 홈페이지 클론하기!**
 
-  ![20240626_203624](https://github.com/Pirogramming-21/Choi-SeungHo/assets/74850409/de95581a-7f0a-4e69-9e4e-0a257da0100b)
+    포트폴리오
+    ![20240628_224430](https://github.com/Pirogramming-21/Choi-SeungHo/assets/74850409/c910359a-0ba0-40a2-89d9-c84e547d930f)
+
+    인터뷰
+    ![20240628_225546](https://github.com/Pirogramming-21/Choi-SeungHo/assets/74850409/9b688ad6-e4c8-4272-9126-e6295e2ac796)
+
+
+  
 
 
